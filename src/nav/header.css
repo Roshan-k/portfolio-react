@@ -1,0 +1,30 @@
+.container{
+    max-width: 1180px;
+    width:94%;
+    margin: 0 auto;
+}
+header {
+    padding: 20px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.logo_email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mailto {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+a.mailto img {
+    vertical-align: middle;
+    margin-right: 6px;
+}
